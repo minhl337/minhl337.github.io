@@ -1,0 +1,69 @@
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+
+#showcase {
+  height: 100%;
+}
+
+#showcase .showcase-content {
+  padding: 70px;
+}
+
+#navbar ul li a {
+  padding: 5px;
+}
+
+#navbar ul li:not(:last-child) a {
+  border-bottom: #444 dotted 1px;
+}
+
+#navbar ul li:first-child {
+  margin-top: 5px;
+}
+
+#home-info .info-img {
+  display: none;
+}
+
+#home-info .info-content {
+  height: 100%;
+  width: 100%;
+  padding: 5vw;
+}
+
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* ABOUT */
+#about-info .info-right,
+#about-info .info-left {
+  float: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#about-info .l-heading {
+  text-align: center;
+}
+
+.container {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+#about-info .info-right img {
+  display: none;
+}
+
+#contact-info .box {
+  border-bottom: #444 dotted 1px;
+}
